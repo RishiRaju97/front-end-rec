@@ -1,0 +1,1053 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Header navigation formatting and button formatting --------------------------------------------*/
+
+header {
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  display: none;
+}
+
+.icon-box {
+  display: none;
+}
+
+.r-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.header-list {
+  color: #333333;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: normal;
+  list-style-type: none;
+  gap: 30px;
+  margin: 85px;
+  align-items: center;
+}
+
+.general-button {
+  width: 170px;
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background: #4f62f6;
+  border: none;
+  border-radius: 20px;
+}
+
+.general-button:hover {
+  background: #7181fc;
+}
+
+select {
+  /* language drop down design */
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  padding: 13px;
+  gap: 10px;
+}
+
+/* Header content, start trading and text formatting ------------------------------------------------*/
+h1 {
+  color: #333333;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 64px;
+  font-weight: 550;
+  line-height: 72px;
+  margin-right: 200px;
+}
+
+.header-paragraph {
+  color: #4f4f4f;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-right: 300px;
+}
+
+.start-trading {
+  font-size: 18px;
+  color: white;
+  background: #4F62F6;
+  border: none;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+}
+
+.header-content {
+  background: rgb(98, 72, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+}
+
+/* Body content "getting started is fast & easy" -------------------------------------------*/
+
+h2 {
+  font-family: sans-serif;
+  font-size: 56px;
+  color: #333333;
+}
+
+.highlight-text {
+  background: rgb(98, 72, 255, 0.1);
+}
+
+.body-content {
+  position: relative;
+  margin: 120px;
+}
+
+.steps-container-number {
+  color: #6248ff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.steps-container-heading {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 10px;
+}
+
+.steps-container-info {
+  color: #4f4f4f;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 32px;
+  width: 483px;
+  height: 283px;
+  border: 2px solid #6248ff;
+  border-radius: 30px;
+}
+.steps-container-right {
+  display: flex;
+  position: relative;
+  left: 700px;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 32px;
+  width: 483px;
+  height: 283px;
+  border: 2px solid #6248ff;
+  border-radius: 30px;
+}
+
+/* Testamonial container and content ------------------------------------------------------------- */
+
+.testamonial-container {
+  margin: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 56px;
+  color: #333333;
+}
+
+.circle-border-left {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: transparent;
+  border-radius: 42px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #ffffff;
+}
+.circle-resp-left {
+  display: none;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: transparent;
+  border-radius: 42px;
+  border: 1px solid #dcdcdc;
+  display: none;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #ffffff;
+}
+.circle-border-right {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: transparent;
+  border-radius: 42px;
+  border: 1px solid #6248FF;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #ffffff;
+}
+.circle-resp-right {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: transparent;
+  border-radius: 42px;
+  border: 1px solid #6248FF;
+  display: none;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #ffffff;
+}
+
+.img-text {
+  display: flex;
+  gap: 20px;
+}
+
+.img-container {
+  height: 73px;
+  width: 73px;
+  border: 1px solid #333333;
+  border-radius: 50px;
+  background: url(blank.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.name {
+  color: #333333;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.role {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.testamonial-para {
+  color: #333333;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.test-num1,
+.test-num2 {
+  color: #6248ff;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/* FREQUENTLY ASKED SECTION ---------------------------------------------------------------------- */
+
+
+.accordion {
+  width: 900px;
+  margin: auto;
+  color: #333333;
+  background-color: white;
+  padding: 45px 45px;
+}
+
+.accordion .container {
+  position: relative;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #6248FF;
+  border-radius: 20px;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.accordion .label::before {
+  content: "+";
+  color: #333333;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.accordion .container.active .content {
+  height: 150px;
+}
+
+/* Changes from plus sign to negative sign once active */
+
+.accordion .container.active .label::before {
+  content: "-";
+  font-size: 30px;
+}
+
+/* --------------------------------------- */
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+h4 {
+  margin: 120px;
+  font-family: sans-serif;
+  font-size: 56px;
+  color: #333333;
+}
+
+.faq-question {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 992px;
+  padding: 32px 40px;
+  border: 2px solid #6248ff;
+  border-radius: 20px;
+}
+
+.faq-text {
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Contact us container and content texts ---------------------------------------------------- */
+
+.contactus-container {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(98, 72, 255, 0.1);
+  margin-top: 120px;
+  padding: 120px;
+}
+
+h5 {
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.contact-info-text {
+  color: #4f4f4f;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.contact-common {
+  color: #4f4f4f;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.contact-headings {
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.contact-forms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 585px;
+  height: 471px;
+  margin-top: 134px;
+  border: 2px solid #6248ff;
+  border-radius: 20px;
+  background: white;
+}
+
+.name-input-box {
+  border: 1px solid #E0E0E0;
+  color: #828282;
+  width: 425px;
+  height: 40px;
+}
+.name-input-box:valid:required {
+  border: 1px solid #0EAC00;
+}
+
+.email-input-box {
+  border: 1px solid #E0E0E0;
+  color: #828282;
+  width: 425px;
+  height: 40px;
+}
+.email-input-box:valid:required {
+  border: 1px solid #0EAC00;
+}
+
+.message-input-box {
+  border: 1px solid #E0E0E0;
+  color: #828282;
+  width: 425px;
+  height: 89px;
+}
+
+.send-button {
+  width: 172px;
+  height: 54px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: #4f62f6;
+  border: none;
+  border-radius: 30px;
+  margin-left: 130px;
+}
+
+/* About us content and text -------------------------------------------------------------------------- */
+
+.about-us-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us-list {
+  list-style-type: none;
+  line-height: 40px;
+  color: #4f4f4f;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.au-p-text {
+  color: #4f4f4f;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+footer {
+  color: #828282;
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* responsive for 320px ------------- */
+
+@media (max-width:320px) {
+  .header-list, .r-header {
+    display: none;
+  }
+
+  #logo {
+    display: block;
+    color: #333333;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+    list-style-type: none;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60%;
+  }
+
+  .icon-box {
+    display: block;
+    position: relative;
+  }
+
+  h1{
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .header-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .header-paragraph{
+    width: 100%;
+  }
+
+  .start-trading {
+    width: 100%;
+  }
+
+  .resp {
+    margin-top: 2rem;
+    width: 100%;
+    height:auto;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-left: 1em;
+    line-height: 35px;
+  }
+
+  .body-content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .steps-container {
+    width: 90%;
+    height: auto;
+    margin: 1em;
+  }
+  
+  .steps-container-right {
+    left: 0px;
+    width: 90%;
+    height: auto;
+    margin: 1em;
+  }
+
+  .steps-container-number, .steps-container-heading, .steps-container-info {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .testamonial-container {
+    padding: 0;
+    margin: 0;
+    display: flex;;
+    flex-direction: column;
+  }
+
+  .img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testamonial-para {
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 1rem;
+  }
+
+  .circle-border-left, .circle-border-right {
+    display: none;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-left: 1em;
+  }
+
+  .test-num1, .test-num2 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .circle-resp-left {
+    margin-left: 6.5rem;
+    display: inline-block;
+  }
+
+  .circle-resp-right {
+    display: inline-block;
+  }
+  
+  h4 {
+    font-size: 30px;
+    margin: 1em;
+  }
+
+/* Acoordion-------------------------------------------start------- */
+  .accordion-body {
+    width: 100%;
+    padding: 0;
+  }
+
+  .accordion {
+    padding: 1em;
+    width: 80%;
+    /* extra */
+    color: #333333;
+    background-color: white;
+  }
+/* extra */
+  .accordion .container {
+    position: relative;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #6248FF;
+    border-radius: 20px;
+  }
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  .accordion .label::before {
+    content: "+";
+    color: #333333;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 16px;
+    transform: translateY(-50%);
+  }
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 16px;
+    text-align: justify;
+    width: 80%;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion .container.active .label::before {
+    content: "-";
+    font-size: 20px;
+  }
+
+  .accordion .container.active .content {
+    height: auto;
+  }
+/* -------------------------------------------accordion------------- end */
+
+
+
+  .contactus-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactus-text {
+    width: 90%;
+    padding: 1em;
+  }
+
+  .contact-info-text{
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .contact-forms-container {
+    width: 90%;
+    margin: 10px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .name-input-box {
+    width:80%;
+    margin: 1.5em;
+  }
+  .email-input-box {
+    width:80%;
+    margin: 1.5em;
+  }
+  .message-input-box {
+    width:80%;
+    margin: 1.5em;
+  }
+  .send-button {
+    margin-left: 20%;
+  }
+
+  .about-us-container {
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-us-list {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+}
+
+/* responsiveness ------------------------------------------ 780px-------------------------  */
+
+
+@media (max-width:780px) and (min-width:330px) {
+  .header-list {
+    display: none;
+  }
+ 
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap:5%;
+  }
+
+  .icon-box {
+    display: block;
+    position: relative;
+    margin-right: 10px;
+  }
+
+  h1{
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .header-content {
+    padding: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .header-paragraph{
+    width: 100%;
+  }
+
+  .start-trading {
+    width: 50%;
+    margin-left: 7rem;
+  }
+
+  .resp {
+    margin-top: 2rem;
+    width: 100%;
+    height:auto;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-left: 1em;
+    line-height: 35px;
+  }
+
+  .body-content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .steps-container {
+    width: 90%;
+    height: auto;
+    margin: 1em;
+  }
+  
+  .steps-container-right {
+    left: 0px;
+    width: 90%;
+    height: auto;
+    margin: 1em;
+  }
+
+  .steps-container-number, .steps-container-heading, .steps-container-info {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .testamonial-container {
+    padding: 6rem;
+    margin: 0;
+    display: flex;;
+    flex-direction: column;
+  }
+
+  .img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testamonial-para {
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 1rem;
+  }
+
+  .circle-border-left, .circle-border-right {
+    display: none;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-left: 5em;
+  }
+
+  .test-num1, .test-num2 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .circle-resp-left {
+    margin-left: 13rem;
+    display: inline-block;
+  }
+
+  .circle-resp-right {
+    display: inline-block;
+  }
+  
+  h4 {
+    font-size: 30px;
+    margin: 1em;
+  }
+
+/* Acoordion-------------------------------------------start------- */
+  .accordion-body {
+    width: 100%;
+    padding: 0;
+  }
+
+  .accordion {
+    padding: 1em;
+    width: 80%;
+    /* extra */
+    color: #333333;
+    background-color: white;
+  }
+/* extra */
+  .accordion .container {
+    position: relative;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #6248FF;
+    border-radius: 20px;
+  }
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  .accordion .label::before {
+    content: "+";
+    color: #333333;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 16px;
+    transform: translateY(-50%);
+  }
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 16px;
+    text-align: justify;
+    width: 80%;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion .container.active .label::before {
+    content: "-";
+    font-size: 20px;
+  }
+
+  .accordion .container.active .content {
+    height: auto;
+  }
+/* -------------------------------------------accordion------------- end */
+
+
+
+  .contactus-container {
+    margin: 0;
+    padding: rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactus-text {
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info-text{
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .contact-forms-container {
+    width: 90%;
+    margin: 10px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .name-input-box {
+    width:80%;
+    margin-left: 3em;
+  }
+  .email-input-box {
+    width:80%;
+    margin-left: 3em;
+  }
+  .message-input-box {
+    width:80%;
+    margin-left: 3em;
+  }
+  .send-button {
+    margin-left: 30%;
+  }
+
+  .about-us-container {
+    width: 95%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-list {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+}
